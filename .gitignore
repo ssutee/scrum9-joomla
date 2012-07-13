@@ -1,4 +1,6 @@
 .gitignore
 .htaccess
+configuration.php
+.installation
 tmp/*
 logs/*

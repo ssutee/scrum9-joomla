@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+	<name>JV_Eoty</name>
+	<creationDate>6/28/2010</creationDate>
+	<author>JoomlaVision.com</author>
+	<copyright>JoomlaVision Inc.</copyright>
+	<authorEmail>demo@joomlavision.com</authorEmail>
+	<authorUrl>www.joomlavision.com</authorUrl>
+	<version>1.5.0</version>
+	<description><![CDATA[<h1>JV Eoty - The cool template for Biz </h1><span>Thank you very much for using our services.<br />Please visit <a href="http://forums.joomlavision.com">JoomlaVision community</a> for any further support.</span>]]></description>
+	<files>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>params.ini</filename>
+		<filename>jv_tools.php</filename>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>favicon.ico</filename>
+		<filename>component.php</filename>
+
+		<folder>jv_menus</folder>
+		<folder>js</folder>
+		<folder>images</folder>
+		<folder>html</folder>
+		<folder>css</folder>	
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>banner</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>inset</position>
+		<position>search</position>
+		<position>highlight</position>
+		<position>slideshow</position>
+		<position>col1</position>
+		<position>col2</position>
+		<position>col3</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>footer</position>
+		<position>syndicate</position>
+		<position>debug</position>
+	</positions>
+
+	<params>
+		<param name="showtools" type="radio" default="1" label="Show Tools of template" description="">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+		<param name="jv_font" type="list" default="4" label="Font size" description="Select Font size for your site">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+		</param>
+		<param name="jv_layout" type="list" default="lcr" label="Layout" description="Select Layout for your site">
+			<option value="lcr">Left - Content - Righ</option>
+			<option value="clr">Content - Left - Right</option>
+		</param>
+		<param name="jv_color" type="list" default="green" label="Color Variation" description="Color variation to use">
+			<option value="green">Green</option>
+			<option value="blue">Blue</option>
+			<option value="red">Red</option>
+		</param>
+		<param name="menutype" type="menu" default="mainmenu" label="Menu Type" description="Menu to show on main navigation" />
+			<param name="jv_menustyle" type="list" default="moo" label="Menu Module" description="MENU'S TYPE">
+			<option value="none">Disable</option>
+			<option value="moo">MooMenu</option>
+		
+		</param>
+		<param name="spacer@" type="spacer" />
+		<param name="gzip" type="radio" default="0" label="Gzip Compression" description="Do you want to enable gzip compression for Javascript and Css (Some host dont have gzip module enabled, If see that your site is not loading css and js please disable this parameter.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+
+</install>

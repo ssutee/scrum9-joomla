@@ -1,0 +1,83 @@
+#jv-containerwrap {
+	background: url(../../images/blue/bg-contentwrapper.jpg) repeat-x scroll center top transparent;
+}
+#jv-container  {
+	background: #E5E5E5 url(../../images/blue/bg-container.jpg) repeat-x scroll center top;
+}
+h2  {
+	color: #54c6ec;
+}
+a {
+	color: #54c6ec;
+}
+a.readon  {
+	background: #54c6ec;
+}
+div.moduletable h3 span,
+div.moduletable_menu h3 span,
+div.moduletable_text h3 span {
+	background: #54c6ec;
+}
+h2.contentheading,
+.contentheading,
+#jv-left div.moduletable_style1 h3 span,
+#jv-userwrap1 a.readon,
+#jv-footer ul li a,
+.modifydate {
+	color: #54c6ec;
+}
+
+#menusys_moo li:hover a span,
+#menusys_moo li.hover a span,
+#menusys_moo li.havechildhover a span,
+#menusys_moo li.havechild-activehover a span {
+	color: #54c6ec;
+}
+#menusys_moo li a.active,
+#menusys_moo li a.active:hover,
+#menusys_moo li a.active:active,
+#menusys_moo li a.active:focus {
+	color: #54c6ec;
+}
+#menusys_moo li a.active span,
+#menusys_moo li a.active:hover span,
+#menusys_moo li a.active:active span,
+#menusys_moo li a.active:focus span {
+	color: #54c6ec;
+}
+
+ul.pagination a,
+ul.pagination span {
+	background: #54c6ec;
+}
+
+.search .inputbox {
+	background: #dbf5fe;
+	border: 1px solid #54c6ec;
+}
+
+.search .button {
+	background: #5281A8 url(../../images/blue/bg-buttonsearch.jpg) repeat-x center top;
+}
+
+legend {
+	background: #3A80AF;
+}
+
+.jv_tab_default_wrap ul.tabs_title li.first.active h3,
+.jv_tab_default_wrap ul.tabs_title li.active h3 {
+	background: #54c6ec;
+}
+.jv_tab_default_wrap ul.tabs_title li.first.active h3 span,
+.jv_tab_default_wrap ul.tabs_title li.active h3 span {
+	background: #54c6ec;
+}
+
+span.prev,
+span.prev:hover {
+	background: url(../../images/blue/bg-pre.jpg) no-repeat 0 0;
+}
+span.next,
+span.next:hover {
+	background: url(../../images/blue/bg-next.jpg) no-repeat 0 0;
+}

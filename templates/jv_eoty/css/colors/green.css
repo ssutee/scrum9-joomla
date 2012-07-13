@@ -1,0 +1,83 @@
+#jv-containerwrap {
+	background:url(../../images/green/bg-contentwrapper.jpg) repeat-x scroll center top transparent;
+}
+#jv-container  {
+	background: #E5E5E5 url(../../images/green/bg-container.jpg) repeat-x scroll center top;
+}
+h2  {
+	color: #689b06;
+}
+a {
+	color: #689b06;
+}
+a.readon  {
+	background: #7AB607;
+}
+div.moduletable h3 span,
+div.moduletable_menu h3 span,
+div.moduletable_text h3 span {
+	background: #7AB607;
+}
+h2.contentheading,
+.contentheading,
+#jv-left div.moduletable_style1 h3 span,
+#jv-userwrap1 a.readon,
+#jv-footer ul li a,
+.modifydate {
+	color: #689b06;
+}
+
+#menusys_moo li:hover a span,
+#menusys_moo li.hover a span,
+#menusys_moo li.havechildhover a span,
+#menusys_moo li.havechild-activehover a span {
+	color: #7AB607;
+}
+#menusys_moo li a.active,
+#menusys_moo li a.active:hover,
+#menusys_moo li a.active:active,
+#menusys_moo li a.active:focus {
+	color: #689b06;
+}
+#menusys_moo li a.active span,
+#menusys_moo li a.active:hover span,
+#menusys_moo li a.active:active span,
+#menusys_moo li a.active:focus span {
+	color: #689b06;
+}
+
+ul.pagination a,
+ul.pagination span {
+	background: #689b06;
+}
+
+.search .inputbox {
+	background: #D8EF9F;
+	border: 1px solid #97bb5a;
+}
+
+.search .button {
+	background: #8e9803 url(../../images/green/bg-buttonsearch.jpg) repeat-x center top;
+}
+
+legend {
+	background: #9ca722;
+}
+
+.jv_tab_default_wrap ul.tabs_title li.first.active h3,
+.jv_tab_default_wrap ul.tabs_title li.active h3 {
+	background: #7AB607;
+}
+.jv_tab_default_wrap ul.tabs_title li.first.active h3 span,
+.jv_tab_default_wrap ul.tabs_title li.active h3 span {
+	background: #7AB607;
+}
+
+span.prev,
+span.prev:hover {
+	background: url(../../images/green/bg-pre.jpg) no-repeat 0 0;
+}
+span.next,
+span.next:hover {
+	background: url(../../images/green/bg-next.jpg) no-repeat 0 0;
+}

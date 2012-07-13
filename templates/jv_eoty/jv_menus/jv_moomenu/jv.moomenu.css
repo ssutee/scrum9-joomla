@@ -1,0 +1,158 @@
+.menusys_moo {
+}
+#menusys_moo {
+	margin: 0;
+	padding: 0;
+	float: left;	
+}
+#menusys_moo ul {
+	margin: 0; 
+	padding: 0;
+}
+#menusys_moo li.li-first {
+	background: none !important;
+}
+#menusys_moo li {
+	margin: 0; 
+	padding: 0;
+	float: left;
+	display: block;
+	background: none;
+	cursor: pointer;
+}
+#menusys_moo li ul {
+	width: 16.9em;
+	position: absolute;
+	z-index: 99;
+	left: -999em; 
+	height: auto;
+	background: #1F1F1F;
+}
+#menusys_moo li ul ul {
+	margin: -35px 0 0 16.9em;
+}
+#menusys_moo li li {
+	padding: 0;
+	line-height: 24px;
+	margin: 0;
+	width: 16.9em;
+}
+#menusys_moo ul a {
+}
+#menusys_moo li:hover ul ul, #menusys_moo li:hover ul ul ul,
+#menusys_moo li.hover ul ul, #menusys_moo li.havechildhover ul ul, #menusys_moo li.havechild-activehover ul ul, #menusys_moo li.activehover ul ul,
+#menusys_moo li.hover ul ul ul, #menusys_moo li.havechildhover ul ul ul, #menusys_moo li.havechild-activehover ul ul ul, #menusys_moo li.activehover ul ul ul {
+	left: -999em;
+}
+#menusys_moo li:hover ul, #menusys_moo li li:hover ul, #menusys_moo li li li:hover ul,
+#menusys_moo li.hover ul, #menusys_moo li.havechildhover ul, #menusys_moo li.havechild-activehover ul, #menusys_moo li.activehover ul,
+#menusys_moo li li.hover ul, #menusys_moo li li.havesubchildhover ul, #menusys_moo li li.havesubchild-activehover ul, #menusys_moo li li.activehover ul,
+#menusys_moo li li li.hover ul, #menusys_moo li li li.havesubchildhover ul, #menusys_moo li li li.havesubchild-activehover ul, #menusys_moo li li li.activehover ul {
+	left: auto;
+}
+/* Menu styling begin */
+#menusys_moo li a {
+	padding: 0 15px;
+	display: block;
+	line-height: 46px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#menusys_moo li a span {
+	color: #757575;
+	font-size:12px;
+	font-weight: bold;
+	display: block;
+	text-shadow: 0 1px 0 #FFF;
+}
+#menusys_moo li a:hover,
+#menusys_moo li a:active,
+#menusys_moo li a:focus {
+   background:url(../../images/mainmenu-left.png) no-repeat center left ;
+}
+#menusys_moo li:hover a,
+#menusys_moo li.hover a,
+#menusys_moo li.havechildhover a,
+#menusys_moo li.havechild-activehover a {
+	background:url(../../images/mainmennu_hover.png) repeat-x center left ;
+	border: none;
+}
+#menusys_moo li:hover a span,
+#menusys_moo li.hover a span,
+#menusys_moo li.havechildhover a span,
+#menusys_moo li.havechild-activehover a span {
+	color: #7AB607;
+	display:block;
+}
+#menusys_moo li a.active,
+#menusys_moo li a.active:hover,
+#menusys_moo li a.active:active,
+#menusys_moo li a.active:focus {
+	color: #7AB607;
+	background:url(../../images/mainmennu_hover.png) repeat-x center left ;
+}
+#menusys_moo li a.active span,
+#menusys_moo li a.active:hover span,
+#menusys_moo li a.active:active span,
+#menusys_moo li a.active:focus span {
+	color: #7AB607;
+	display:block;
+}
+#menusys_moo li ul ul {
+}
+#menusys_moo li ul li {
+	width: 16.9em;
+	background:url(../../images/line_menu.png) repeat-x bottom;
+}
+#menusys_moo li li.last-item ,
+#menusys_moo li li.last-item:hover,
+#menusys_moo li li.last-item a:hover {
+}
+#menusys_moo li ul a,
+#menusys_moo li ul a:hover,
+#menusys_moo li ul a:focus,
+#menusys_moo li ul a:active {
+	margin: 0;
+	padding: 0;
+	height: auto;
+	display: block;
+	background: none !important;
+	border: none !important;
+	text-shadow: none;
+	line-height: 35px;
+}
+#menusys_moo li ul a span {
+	padding: 0 0 0 10px;
+	text-transform: uppercase;
+	color: #757575 !important;
+	background: none !important;
+	text-transform: none;
+	text-shadow: none;
+}
+#menusys_moo li.havesubchild,
+#menusys_moo li.havesubchild-active {
+}
+
+#menusys_moo li ul a.active span,
+#menusys_moo li ul li:hover a span,
+#menusys_moo li ul li ul li:hover a span,
+#menusys_moo li ul li ul ul li:hover a span,
+#menusys_moo li ul li ul ul ul li:hover a span,
+#menusys_moo li ul li ul ul ul ul li:hover a span,
+#menusys_moo li ul a:hover span,
+#menusys_moo li ul a:active span,
+#menusys_moo li ul a:focus span {
+	color: #FFF !important;
+}
+#menusys_moo li ul li:hover ul a span,
+#menusys_moo li ul ul li:hover ul a span,
+#menusys_moo li ul ul ul li:hover ul a span,
+#menusys_moo li ul ul ul ul li:hover ul a span {
+	color: #757575 !important;
+}
+#menusys_moo ul li a.active {
+}
+#menusys_moo ul li a.active:hover,
+#menusys_moo ul li a.active:active,
+#menusys_moo ul li a.active:focus {
+}
